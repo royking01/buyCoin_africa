@@ -66,6 +66,7 @@ header ul li i:hover{
  .container{
  	display: flex;
  	width: 98vw;
+ 	padding: 30px;
  	/*border: 1px solid grey;*/
  	/*height: 80vh;*/
  	margin: 20px 0px;
@@ -73,7 +74,7 @@ header ul li i:hover{
  }
 
  .container #left{
- 	width: 23%;
+ 	width: 25%;
  	/*border: 1px solid grey;*/
  	display: grid;
  	justify-content: center;
@@ -83,7 +84,7 @@ header ul li i:hover{
 cursor: pointer;
   }
   .container #right{
-  	width: 70%;
+  	width: 65%;
   	padding: 0px 20px;
 
   }
