@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+ font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+	/*background-color: red;*/
+}
+
+header{
+	background-color: #24292e;
+	line-height: 1.5;
+	display: flex;
+	padding: 16px;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	    font-size: 14px;
+
+}
+ header ul{
+ 	display: flex;
+ 	list-style: none;
+ 	align-items: center;
+
+ }
+ header ul li{
+ 	/*margin: 0px 10px;*/
+ 	color: white;
+ 	margin-right: 16px;
+ 	display: flex;
+ 	align-items: center;
+
+ }
+ header ul li input{
+ 	/*margin: 0px 16px;/*/
+ 	min-height: 28px;
+ 	outline: none;
+ 	border-radius: 6px;
+ 	width: 230px;
+ 	border:none;
+    background: inherit;
+    border: 1px solid gray;
+    padding: 0px 10px;
+
+ }
+header ul li i{
+	color: white;
+	margin-right: 5px
+	/*font-size: 10px;*/
+}
+
+
+
+ .container{
+ 	display: flex;
+ 	width: 98vw;
+ 	/*border: 1px solid grey;*/
+ 	/*height: 80vh;*/
+ 	margin: 20px 0px;
+
+ }
+
+ .container #left{
+ 	width: 23%;
+ 	/*border: 1px solid grey;*/
+ 	display: grid;
+ 	justify-content: center;
+    padding-left: 20px;
+ }
+ 
+  .container #right{
+  	width: 70%;
+  	padding: 0px 20px;
+
+  }
+ .container #right #banner{
+ 	list-style: none;
+ 	display: flex;
+ 	height: 55px;
+ 	border-bottom: 1px solid #c3bdbd;
+ }
+  .container #right #banner li{
+  	display: flex;
+  	align-items: center;
+  	margin-right: 22px;
+  }
+.container #right #banner li:hover{
+  	border-bottom: 1px solid red;
+}
+
+   .container #right #banner li img{
+   	height: 20px;
+   	margin-right: 5px;
+   }
+
+
+   .container #right #top input{
+   	width: 99%;
+   	margin: 10px 0px;
+   	font-size: 14px;
+   	padding: 5px;
+   	border-radius: 6px;
+   	outline: none;
+   	border: 1px solid #c3bdbd;
+   }
+   .container #right p{
+   	width: 27%;
+   	margin-bottom: 10px;
+   	   	/*border-bottom: 1px solid;*/
+
+   }
+    .container #right .repositories{
+    	width: 100%;
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+
+    }
+    .container #right .repositories #lvl ul{
+  	list-style: none;
+  	display: flex;
+  	font-size: 15px;
+    } 
+    .container #right .repositories #lvl h1{
+    	color: #0366d6;
+    }
+    .container #right .repositories #lvl ul li{
+    	display: flex;
+    	align-items: center;
+    	margin-left: 10px
+    }
+    .container #right .repositories  i{
+    	font-size: 10px;
+    	margin-right: 3px
+    }
+
+    footer ul{
+    	justify-content: space-between;
+    }
+    footer ul li{
+    	color: #0366d6;
+    	font-size: small;
+    }
+  
