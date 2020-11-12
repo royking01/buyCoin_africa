@@ -169,6 +169,9 @@ cursor: pointer;
      	cursor: pointer;
 
      }
+      .container #right hr{
+      	border:1px solid   #e6e3e3;
+      }
 
 
     footer ul{
@@ -220,6 +223,9 @@ body{
 
  i{
  	color: white;
+ }
+ i:hover{
+ 	color: grey;
  }
 
  .container img{
