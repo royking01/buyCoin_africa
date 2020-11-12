@@ -165,6 +165,9 @@ cursor: pointer;
     	font-size: 10px;
     	margin-right: 3px
     }
+       .container #right .repositories #lvl i:hover{
+       	color: blue;
+       }
      .container #right .repositories .star:hover{
      	background-color: #e6e3e3;
      	cursor: pointer;
