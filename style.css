@@ -108,6 +108,7 @@ cursor: pointer;
   }
    .container #right #banner a:focus{
   	border-bottom: 2px solid orange;
+  	font-weight: 600;
 
    }
 .container #right #banner a:hover{
