@@ -216,7 +216,8 @@ body{
 	margin-bottom: 20px;
 	    font-size: 14px;
 	    align-items: center;
-	    height: 90px
+	    height: 90px;
+	width:100%:
 }
 #mobile i{
 	font-size: 50px;
